@@ -1,0 +1,49 @@
+2024-09-25 13:17:16,057 - INFO - БОТ ЗАПУЩЕН
+2024-09-25 13:17:16,161 - INFO - Start polling
+2024-09-25 13:17:16,266 - INFO - Run polling for bot @LESSONN7_bot id=7997633526 - 'INFO'
+2024-09-25 13:17:23,345 - INFO - Polling stopped
+2024-09-25 13:17:23,607 - INFO - Polling stopped for bot @LESSONN7_bot id=7997633526 - 'INFO'
+2024-09-25 13:17:32,671 - INFO - БОТ ЗАПУЩЕН
+2024-09-25 13:17:32,795 - INFO - Start polling
+2024-09-25 13:17:32,910 - INFO - Run polling for bot @LESSONN7_bot id=7997633526 - 'INFO'
+2024-09-25 13:17:49,532 - INFO - Update id=337636023 is handled. Duration 469 ms by bot id=7997633526
+2024-09-25 13:17:56,297 - INFO - Update id=337636024 is handled. Duration 186 ms by bot id=7997633526
+2024-09-25 13:17:56,297 - INFO - Начат мониторинг BTC
+2024-09-25 13:17:56,841 - INFO - Изменение цены BTC: Стоимость BTC на Wed Sep 25 13:17:56 2024, 63776.65770998
+2024-09-25 13:17:59,908 - INFO - Update id=337636025 is handled. Duration 157 ms by bot id=7997633526
+2024-09-25 13:18:06,018 - INFO - Update id=337636026 is handled. Duration 344 ms by bot id=7997633526
+2024-09-25 13:18:07,521 - INFO - Изменение цены BTC: Стоимость BTC на Wed Sep 25 13:18:07 2024, 63776.23593155
+2024-09-25 13:18:18,254 - INFO - Изменение цены BTC: Стоимость BTC на Wed Sep 25 13:18:18 2024, 63775.78832113
+2024-09-25 13:18:28,968 - INFO - Изменение цены BTC: Стоимость BTC на Wed Sep 25 13:18:28 2024, 63772.67357962
+2024-09-25 13:18:39,624 - INFO - Update id=337636027 is handled. Duration 217 ms by bot id=7997633526
+2024-09-25 13:18:39,755 - INFO - Изменение цены BTC: Стоимость BTC на Wed Sep 25 13:18:39 2024, 63771.04842148
+2024-09-25 13:18:49,936 - INFO - Мониторинг BTC остановлен
+2024-09-25 13:27:32,890 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<to_thread() done, defined at C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py:12> exception=RuntimeError("There is no current event loop in thread 'asyncio_0'.")>
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\threads.py", line 25, in to_thread
+    return await loop.run_in_executor(None, func_call)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\телеграм бот инфо\bot.py", line 116, in scheduler
+    schedule.run_pending()
+  File "C:\Users\User\Desktop\телеграм бот инфо\venv\Lib\site-packages\schedule\__init__.py", line 854, in run_pending
+    default_scheduler.run_pending()
+  File "C:\Users\User\Desktop\телеграм бот инфо\venv\Lib\site-packages\schedule\__init__.py", line 101, in run_pending
+    self._run_job(job)
+  File "C:\Users\User\Desktop\телеграм бот инфо\venv\Lib\site-packages\schedule\__init__.py", line 173, in _run_job
+    ret = job.run()
+          ^^^^^^^^^
+  File "C:\Users\User\Desktop\телеграм бот инфо\venv\Lib\site-packages\schedule\__init__.py", line 691, in run
+    ret = self.job_func()
+          ^^^^^^^^^^^^^^^
+  File "c:\Users\User\Desktop\телеграм бот инфо\bot.py", line 107, in periodic_report
+    loop = asyncio.get_event_loop()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 702, in get_event_loop
+    raise RuntimeError('There is no current event loop in thread %r.'
+RuntimeError: There is no current event loop in thread 'asyncio_0'.
+2024-09-25 13:34:27,966 - INFO - Polling stopped
+2024-09-25 13:34:28,224 - INFO - Polling stopped for bot @LESSONN7_bot id=7997633526 - 'INFO'
